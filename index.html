@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Spice & Soul Restaurant</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <div class="logo">Spice & Soul</div>
+
+        <nav id="navbar">
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#signature">Signature</a>
+            <a href="#founder">Founder Story</a>
+            <a href="#branches">Branches</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <button id="menuBtn">
+            <i class="fas fa-bars"></i>
+        </button>
+    </header>
+
+
+    <!-- HOME -->
+    <section id="home" class="hero">
+
+        <div>
+            <p class="welcome">WELCOME TO</p>
+
+            <h1>Spice & Soul</h1>
+
+            <p>
+                Delicious food, beautiful moments
+                and unforgettable flavors.
+            </p>
+
+            <a href="#menu" class="btn">
+                Explore Menu
+            </a>
+        </div>
+
+    </section>
+
+
+    <!-- MENU -->
+    <section id="menu">
+
+        <h2>Explore Menu</h2>
+
+        <div class="menu-buttons">
+            <button class="filter active" data-category="all">
+                All
+            </button>
+
+            <button class="filter" data-category="starter">
+                Starters
+            </button>
+
+            <button class="filter" data-category="main">
+                Main Course
+            </button>
+
+            <button class="filter" data-category="dessert">
+                Desserts
+            </button>
+
+            <button class="filter" data-category="drinks">
+                Drinks
+            </button>
+        </div>
+
+
+        <div class="menu-list">
+
+            <div class="menu-item" data-category="starter">
+                <div>
+                    <h3>Chicken Tikka</h3>
+                    <p>Grilled chicken with special spices</p>
+                </div>
+                <strong>₹280</strong>
+            </div>
+
+            <div class="menu-item" data-category="starter">
+                <div>
+                    <h3>Paneer Tikka</h3>
+                    <p>Grilled paneer with herbs</p>
+                </div>
+                <strong>₹240</strong>
+            </div>
+
+            <div class="menu-item" data-category="main">
+                <div>
+                    <h3>Hyderabadi Biryani</h3>
+                    <p>Traditional aromatic biryani</p>
+                </div>
+                <strong>₹420</strong>
+            </div>
+
+            <div class="menu-item" data-category="main">
+                <div>
+                    <h3>Butter Chicken</h3>
+                    <p>Chicken cooked in creamy tomato gravy</p>
+                </div>
+                <strong>₹390</strong>
+            </div>
+
+            <div class="menu-item" data-category="main">
+                <div>
+                    <h3>Dal Makhani</h3>
+                    <p>Slow cooked black lentils</p>
+                </div>
+                <strong>₹250</strong>
+            </div>
+
+            <div class="menu-item" data-category="dessert">
+                <div>
+                    <h3>Gulab Jamun</h3>
+                    <p>Soft sweet dumplings</p>
+                </div>
+                <strong>₹140</strong>
+            </div>
+
+            <div class="menu-item" data-category="dessert">
+                <div>
+                    <h3>Rasmalai</h3>
+                    <p>Soft cheese dumplings in sweet milk</p>
+                </div>
+                <strong>₹160</strong>
+            </div>
+
+            <div class="menu-item" data-category="drinks">
+                <div>
+                    <h3>Mango Lassi</h3>
+                    <p>Fresh mango yogurt drink</p>
+                </div>
+                <strong>₹130</strong>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SIGNATURE -->
+    <section id="signature">
+
+        <h2>Signature Dishes</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-bowl-food"></i>
+                </div>
+
+                <h3>Royal Biryani</h3>
+
+                <p>
+                    Our special aromatic biryani
+                    prepared with traditional spices.
+                </p>
+
+                <span>₹420</span>
+            </div>
+
+
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-utensils"></i>
+                </div>
+
+                <h3>Paneer Tikka</h3>
+
+                <p>
+                    Soft paneer grilled with our
+                    secret house spices.
+                </p>
+
+                <span>₹320</span>
+            </div>
+
+
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-mug-hot"></i>
+                </div>
+
+                <h3>Mango Lassi</h3>
+
+                <p>
+                    A refreshing and creamy
+                    traditional mango drink.
+                </p>
+
+                <span>₹130</span>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOUNDER STORY -->
+    <section id="founder">
+
+        <h2>Founder Story</h2>
+
+        <div class="founder-box">
+
+            <h3>Our Journey</h3>
+
+            <p>
+                Spice & Soul was founded by
+                <strong></strong> in 2012.
+            </p>
+
+            <p>
+                His dream was simple — create a place
+                where people could enjoy delicious food
+                and spend quality time with family and friends.
+            </p>
+
+            <p>
+                What started as a small family restaurant
+                has grown into a place loved by food
+                lovers from across the city.
+            </p>
+
+            <blockquote>
+                "Good food brings good people together."
+            </blockquote>
+
+        </div>
+
+    </section>
+
+
+    <!-- BRANCHES -->
+    <section id="branches">
+
+        <h2>Our Branches</h2>
+
+        <div class="cards">
+
+            <div class="branch">
+                <i class="fas fa-location-dot"></i>
+
+                <h3>Jubilee Hills</h3>
+
+                <p>
+                    Road No. 36,<br>
+                    Jubilee Hills,<br>
+                    Hyderabad
+                </p>
+
+                <a href="https://maps.google.com/"
+                   target="_blank">
+                    Get Directions
+                </a>
+            </div>
+
+
+            <div class="branch">
+                <i class="fas fa-location-dot"></i>
+
+                <h3>Banjara Hills</h3>
+
+                <p>
+                    Road No. 12,<br>
+                    Banjara Hills,<br>
+                    Hyderabad
+                </p>
+
+                <a href="https://maps.google.com/"
+                   target="_blank">
+                    Get Directions
+                </a>
+            </div>
+
+
+            <div class="branch">
+                <i class="fas fa-location-dot"></i>
+
+                <h3>Gachibowli</h3>
+
+                <p>
+                    Financial District,<br>
+                    Gachibowli,<br>
+                    Hyderabad
+                </p>
+
+                <a href="https://maps.google.com/"
+                   target="_blank">
+                    Get Directions
+                </a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section id="contact">
+
+        <h2>Contact Us</h2>
+
+        <div class="contact-container">
+
+            <div class="contact-info">
+
+                <h3>Let's Talk</h3>
+
+                <p>
+                    Have a question or want to reserve
+                    a table? Contact us.
+                </p>
+
+                <p>
+                    <i class="fas fa-phone"></i>
+                    +91 99999 99999
+                </p>
+
+                <p>
+                    <i class="fas fa-envelope"></i>
+                    hello@spiceandsoul.com
+                </p>
+
+                <p>
+                    <i class="fas fa-clock"></i>
+                    11:00 AM - 11:00 PM
+                </p>
+
+
+                <div class="social">
+
+                    <a href="https://facebook.com/"
+                       target="_blank">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+
+                    <a href="https://instagram.com/"
+                       target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+
+                    <a href="https://wa.me/919999999999"
+                       target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- FORM -->
+
+            <form id="contactForm">
+
+                <label>Name</label>
+                <input type="text"
+                       id="name"
+                       placeholder="Your name"
+                       required>
+
+
+                <label>Email</label>
+                <input type="email"
+                       id="email"
+                       placeholder="Your email"
+                       required>
+
+
+                <label>Phone</label>
+                <input type="tel"
+                       id="phone"
+                       placeholder="Your phone number"
+                       required>
+
+
+                <label>Message</label>
+                <textarea id="message"
+                          rows="5"
+                          placeholder="Your message"
+                          required></textarea>
+
+
+                <button type="submit" class="btn">
+                    Send Message
+                </button>
+
+                <p id="formMessage"></p>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <h3>Spice & Soul</h3>
+
+        <p>
+            Delicious food. Happy moments.
+        </p>
+
+        <div class="footer-social">
+
+            <a href="https://facebook.com/" target="_blank">
+                Facebook
+            </a>
+
+            <a href="https://instagram.com/" target="_blank">
+                Instagram
+            </a>
+
+            <a href="https://wa.me/919999999999"
+               target="_blank">
+                WhatsApp
+            </a>
+
+        </div>
+
+        <p class="copyright">
+            © 2026 Spice & Soul Restaurant
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
